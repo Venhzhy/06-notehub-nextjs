@@ -1,5 +1,5 @@
-const Loading = () => {
+const loading = () => {
   return <p>Loading, please wait...</p>;
 };
 
-export default Loading;
+export default loading;
