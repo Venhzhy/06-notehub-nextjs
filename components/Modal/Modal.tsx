@@ -19,6 +19,7 @@ const Modal = ({ children, onClose }: ModalProps) => {
 
   useEffect(() => {
     if (!mounted) return;
+    
     const handleKeyDown = (event: KeyboardEvent): void => {
       if (event.key === "Escape") {
         onClose();
